@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Produtos — Paparico Pet Shop | Loja para Pets em Cabo Frio</title>
+<meta name="description" content="Ração, petiscos, higiene e acessórios para cães e gatos no Paparico Pet Shop, em Cabo Frio. Peça pelo WhatsApp com entrega a domicílio.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<div class="topbar">
+  <div class="container">
+    <a href="https://wa.me/5522999632670" target="_blank" rel="noopener">📱 (22) 99963-2670</a>
+    <span>📍 R. Antônio Feliciano de Almeida, 22 — Passagem, Cabo Frio/RJ</span>
+    <span>🕗 Seg a Sáb · até 18h</span>
+    <span>🚚 Entrega a domicílio</span>
+  </div>
+</div>
+
+<header class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="logo">
+      <svg class="logo-mark" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="32" cy="32" r="32" fill="#ee6c4d"/>
+        <g fill="#fff"><ellipse cx="32" cy="38" rx="12" ry="14"/><ellipse cx="14" cy="26" rx="5.5" ry="8"/><ellipse cx="25" cy="18" rx="5.5" ry="8"/><ellipse cx="39" cy="18" rx="5.5" ry="8"/><ellipse cx="50" cy="26" rx="5.5" ry="8"/></g>
+      </svg>
+      <span class="logo-text">Paparico<span>PET SHOP</span></span>
+    </a>
+    <nav>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="servicos.html">Serviços</a></li>
+        <li><a href="produtos.html" class="active">Produtos</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="contato.html">Contato</a></li>
+        <li class="nav-cta"><a href="https://wa.me/5522999632670" target="_blank" rel="noopener" class="btn btn-whats" style="padding:10px 20px;">Agendar</a></li>
+      </ul>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <h1>Nossa Loja</h1>
+    <p class="crumbs"><a href="index.html">Início</a> › Produtos</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="kicker">Tudo para o seu pet</span>
+      <h2>Produtos com carinho e qualidade</h2>
+      <p>Selecionamos o melhor em alimentação, higiene e acessórios. Faça seu pedido pelo WhatsApp e receba em casa.</p>
+    </div>
+
+    <div class="cat-chips reveal">
+      <button class="chip active" data-filter="todos">Todos</button>
+      <button class="chip" data-filter="cachorro">🐶 Cachorro</button>
+      <button class="chip" data-filter="gato">🐱 Gato</button>
+      <button class="chip" data-filter="higiene">🧴 Higiene</button>
+      <button class="chip" data-filter="acessorios">🧸 Acessórios</button>
+    </div>
+
+    <div class="grid-4">
+      <div class="prod-card reveal" data-cat="cachorro">
+        <div class="prod-thumb">🦴</div>
+        <div class="prod-body"><span class="prod-cat">Cachorro · Alimentação</span><h3>Ração para Cães</h3><p>Nutrição completa para filhotes e adultos, de várias marcas.</p>
+        <div class="prod-foot"><span class="prod-price">Consulte<small>preço na loja</small></span><a href="https://wa.me/5522999632670?text=Ol%C3%A1!%20Quero%20saber%20sobre%20a%20ra%C3%A7%C3%A3o%20para%20c%C3%A3es." target="_blank" rel="noopener" class="mini-btn" aria-label="Pedir">+</a></div></div>
+      </div>
+      <div class="prod-card reveal" data-cat="cachorro">
+        <div class="prod-thumb">🍖</div>
+        <div class="prod-body"><span class="prod-cat">Cachorro · Petiscos</span><h3>Petiscos & Ossinhos</h3><p>Recompensas saborosas para treinar e agradar.</p>
+        <div class="prod-foot"><span class="prod-price">Consulte<small>preço na loja</small></span><a href="https://wa.me/5522999632670?text=Ol%C3%A1!%20Quero%20saber%20sobre%20os%20petiscos." target="_blank" rel="noopener" class="mini-btn" aria-label="Pedir">+</a></div></div>
+      </div>
+      <div class="prod-card reveal" data-cat="gato">
+        <div class="prod-thumb">🐟</div>
+        <div class="prod-body"><span class="prod-cat">Gato · Alimentação</span><h3>Ração para Gatos</h3><p>Sabores irresistíveis e nutrição para todas as idades.</p>
+        <div class="prod-foot"><span class="prod-price">Consulte<small>preço na loja</small></span><a href="https://wa.me/5522999632670?text=Ol%C3%A1!%20Quero%20saber%20sobre%20a%20ra%C3%A7%C3%A3o%20para%20gatos." target="_blank" rel="noopener" class="mini-btn" aria-label="Pedir">+</a></div></div>
+      </div>
+      <div class="prod-card reveal" data-cat="gato">
+        <div class="prod-thumb">🏖️</div>
+        <div class="prod-body"><span class="prod-cat">Gato · Higiene</span><h3>Areia Sanitária</h3><p>Alta absorção e controle de odores para o gatinho.</p>
+        <div class="prod-foot"><span class="prod-price">Consulte<small>preço na loja</small></span><a href="https://wa.me/5522999632670?text=Ol%C3%A1!%20Quero%20saber%20sobre%20a%20areia%20sanit%C3%A1ria." target="_blank" rel="noopener" class="mini-btn" aria-label="Pedir">+</a></div></div>
+      </div>
+      <div class="prod-card reveal" data-cat="higiene">
+        <div class="prod-thumb">🧴</div>
+        <div class="prod-body"><span class="prod-cat">Higiene</span><h3>Shampoo & Condicionador</h3><p>Produtos suaves para a pele e a pelagem do pet.</p>
+        <div class="prod-foot"><span class="prod-price">Consulte<small>preço na loja</small></span><a href="https://wa.me/5522999632670?text=Ol%C3%A1!%20Quero%20saber%20sobre%20shampoo%20para%20pets." target="_blank" rel="noopener" class="mini-btn" aria-label="Pedir">+</a></div></div>
+      </div>
+      <div class="prod-card reveal" data-cat="higiene">
+        <div class="prod-thumb">🧻</div>
+        <div class="prod-body"><span class="prod-cat">Higiene</span><h3>Tapetes Higiênicos</h3><p>Praticidade e limpeza no dia a dia do seu pet.</p>
+        <div class="prod-foot"><span class="prod-price">Consulte<small>preço na loja</small></span><a href="https://wa.me/5522999632670?text=Ol%C3%A1!%20Quero%20saber%20sobre%20tapetes%20higi%C3%AAnicos." target="_blank" rel="noopener" class="mini-btn" aria-label="Pedir">+</a></div></div>
+      </div>
+      <div class="prod-card reveal" data-cat="acessorios">
+        <div class="prod-thumb">🦮</div>
+        <div class="prod-body"><span class="prod-cat">Acessórios</span><h3>Coleiras & Guias</h3><p>Segurança e estilo para os passeios do seu companheiro.</p>
+        <div class="prod-foot"><span class="prod-price">Consulte<small>preço na loja</small></span><a href="https://wa.me/5522999632670?text=Ol%C3%A1!%20Quero%20saber%20sobre%20coleiras%20e%20guias." target="_blank" rel="noopener" class="mini-btn" aria-label="Pedir">+</a></div></div>
+      </div>
+      <div class="prod-card reveal" data-cat="acessorios">
+        <div class="prod-thumb">🧸</div>
+        <div class="prod-body"><span class="prod-cat">Acessórios</span><h3>Brinquedos</h3><p>Diversão garantida e muito bem-estar para o pet.</p>
+        <div class="prod-foot"><span class="prod-price">Consulte<small>preço na loja</small></span><a href="https://wa.me/5522999632670?text=Ol%C3%A1!%20Quero%20saber%20sobre%20brinquedos." target="_blank" rel="noopener" class="mini-btn" aria-label="Pedir">+</a></div></div>
+      </div>
+      <div class="prod-card reveal" data-cat="acessorios">
+        <div class="prod-thumb">🛏️</div>
+        <div class="prod-body"><span class="prod-cat">Acessórios</span><h3>Camas & Casinhas</h3><p>Conforto para o descanso do seu melhor amigo.</p>
+        <div class="prod-foot"><span class="prod-price">Consulte<small>preço na loja</small></span><a href="https://wa.me/5522999632670?text=Ol%C3%A1!%20Quero%20saber%20sobre%20camas%20para%20pets." target="_blank" rel="noopener" class="mini-btn" aria-label="Pedir">+</a></div></div>
+      </div>
+      <div class="prod-card reveal" data-cat="cachorro">
+        <div class="prod-thumb">👕</div>
+        <div class="prod-body"><span class="prod-cat">Cachorro · Vestuário</span><h3>Roupinhas</h3><p>Estilo e aconchego para os dias mais frios.</p>
+        <div class="prod-foot"><span class="prod-price">Consulte<small>preço na loja</small></span><a href="https://wa.me/5522999632670?text=Ol%C3%A1!%20Quero%20saber%20sobre%20roupinhas%20para%20pets." target="_blank" rel="noopener" class="mini-btn" aria-label="Pedir">+</a></div></div>
+      </div>
+      <div class="prod-card reveal" data-cat="gato">
+        <div class="prod-thumb">🪶</div>
+        <div class="prod-body"><span class="prod-cat">Gato · Acessórios</span><h3>Brinquedos para Gatos</h3><p>Varinhas, bolinhas e diversão felina de sobra.</p>
+        <div class="prod-foot"><span class="prod-price">Consulte<small>preço na loja</small></span><a href="https://wa.me/5522999632670?text=Ol%C3%A1!%20Quero%20saber%20sobre%20brinquedos%20para%20gatos." target="_blank" rel="noopener" class="mini-btn" aria-label="Pedir">+</a></div></div>
+      </div>
+      <div class="prod-card reveal" data-cat="higiene">
+        <div class="prod-thumb">🦷</div>
+        <div class="prod-body"><span class="prod-cat">Higiene</span><h3>Cuidados Dentais</h3><p>Saúde bucal em dia com produtos próprios para pets.</p>
+        <div class="prod-foot"><span class="prod-price">Consulte<small>preço na loja</small></span><a href="https://wa.me/5522999632670?text=Ol%C3%A1!%20Quero%20saber%20sobre%20cuidados%20dentais." target="_blank" rel="noopener" class="mini-btn" aria-label="Pedir">+</a></div></div>
+      </div>
+    </div>
+
+    <div style="text-align:center;margin-top:48px;background:var(--creme-2);padding:34px;border-radius:var(--radius);" class="reveal">
+      <h3 style="margin-bottom:8px;">Não encontrou o que procura?</h3>
+      <p style="color:var(--marrom-claro);margin-bottom:20px;">Temos muito mais na loja! Chame a gente no WhatsApp e consulte disponibilidade e preços.</p>
+      <a href="https://wa.me/5522999632670" target="_blank" rel="noopener" class="btn btn-whats">💬 Fazer meu pedido</a>
+    </div>
+  </div>
+</section>
+
+<footer class="site-foot">
+  <div class="container">
+    <div class="cols">
+      <div>
+        <div class="foot-logo">
+          <svg class="logo-mark" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" style="width:44px;height:44px;">
+            <circle cx="32" cy="32" r="32" fill="#ee6c4d"/>
+            <g fill="#fff"><ellipse cx="32" cy="38" rx="12" ry="14"/><ellipse cx="14" cy="26" rx="5.5" ry="8"/><ellipse cx="25" cy="18" rx="5.5" ry="8"/><ellipse cx="39" cy="18" rx="5.5" ry="8"/><ellipse cx="50" cy="26" rx="5.5" ry="8"/></g>
+          </svg>
+          <span class="logo-text">Paparico<span>PET SHOP</span></span>
+        </div>
+        <p>Cuidado, carinho e tudo para o seu pet, no coração de Cabo Frio.</p>
+        <div class="socials">
+          <a href="https://instagram.com/paparicopetshop" target="_blank" rel="noopener" aria-label="Instagram">📷</a>
+          <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook">📘</a>
+          <a href="https://wa.me/5522999632670" target="_blank" rel="noopener" aria-label="WhatsApp">💬</a>
+        </div>
+      </div>
+      <div>
+        <h5>Navegação</h5>
+        <a href="index.html">Início</a><a href="servicos.html">Serviços</a><a href="produtos.html">Produtos</a><a href="sobre.html">Sobre</a><a href="contato.html">Contato</a>
+      </div>
+      <div>
+        <h5>Serviços</h5>
+        <a href="servicos.html">Banho</a><a href="servicos.html">Tosa</a><a href="servicos.html">Cuidados especiais</a><a href="produtos.html">Loja & entrega</a>
+      </div>
+      <div>
+        <h5>Contato</h5>
+        <p>📍 R. Antônio Feliciano de Almeida, 22<br>Passagem, Cabo Frio/RJ · 28906-240</p>
+        <p>📱 (22) 99963-2670</p>
+        <p>🕗 Seg a Sáb — até 18h</p>
+      </div>
+    </div>
+    <div class="foot-bottom">© 2026 Paparico Pet Shop · Feito com ❤️ em Cabo Frio · Todos os direitos reservados</div>
+  </div>
+</footer>
+
+<a href="https://wa.me/5522999632670" target="_blank" rel="noopener" class="wa-float" aria-label="WhatsApp">💬</a>
+<script src="assets/main.js"></script>
+</body>
+</html>
